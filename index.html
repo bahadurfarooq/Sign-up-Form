@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <title>Sign-up Form</title>
+</head>
+
+<body>
+    <div class="flex  font-mono">
+        <!-- left side section -->
+        <div class="bg-[url('./img/bg-sm.jpg')] bg-cover bg-center h-screen w-125 flex items-center justify-center">
+            <img src="src/img/logo.png" alt="" class="w-15 h-auto">
+            <h1 class="font-black text-white font-myfont text-5xl ">ODIN</h1>
+        </div>
+        <!-- right side section  -->
+        <div >
+            <div class="bg-gray-100 w-auto h-40 flex items-center">
+            <p > This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+                <br>
+                <span class="italic">
+                You know you want to.
+                </span> 
+            </p>
+            </div>
+            <!-- form section -->
+            <form action="" class="bg-gray-300 w-auto h-100 grid grid-cols-2 gap-0.5 font-bold p-5">
+                <h1 class="col-span-2 text-center text-2xl">Let's do this!</h1>
+                <div class="flex flex-col w-100">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="firstName" id="first-name" class="border-2 border-gray-400">
+                </div>
+                <div class="flex flex-col w-100">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="lastName" id="last-name" class="border-2 border-gray-400">
+                </div>
+                <div class="flex flex-col w-100">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" class="border-2 border-gray-400">
+                </div>
+                <div class="flex flex-col w-100">
+                    <label for="ph-num">PHONE NUMBER</label>
+                    <input type="number" name="phNum" id="ph-num" class="border-2 border-gray-400">
+                </div>
+                <div class="flex flex-col w-100">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" class="border-2 border-gray-400">
+                </div>
+                <div class="flex flex-col w-100">
+                    <label for="cnf-pass">CONFIRM PASSWORD</label>
+                    <input type="password" name="cnfPass" id="cnf-pass" class="border-2 border-gray-400">
+                </div>
+                <button type="submit" class="col-span-2 bg-gray-400 w-50 rounded-2xl text-gray-100 hover:bg-gray-500 hover:text-gray-200">Create Account</button>
+            </form>
+            <h1>Already have an account? <a href="index.html" class="text-green-500 hover:text-green-700">Log in</a></h1>
+        </div>
+
+    </div>
+</body>
+
+</html>
